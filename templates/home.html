@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ACEest Fitness and Gym</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0077cc, #00c6ff);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        background: #ffffff;
+        padding: 50px 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        max-width: 700px;
+        width: 100%;
+        animation: fadeIn 1.2s ease-in-out;
+      }
+
+      h1 {
+        color: #0077cc;
+        margin-bottom: 15px;
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #444;
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+      }
+
+      ul li {
+        margin: 12px 0;
+      }
+
+      a {
+        display: inline-block;
+        padding: 12px 20px;
+        text-decoration: none;
+        background: #0077cc;
+        color: white;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        font-weight: 600;
+      }
+
+      a:hover {
+        background: #005fa3;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+      }
+
+      footer {
+        margin-top: 30px;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🏋️ ACEest Fitness and Gym</h1>
+      <p>
+        Welcome to <strong>ACEest Fitness</strong> – your ultimate companion for
+        tracking and improving workouts. Whether you’re a beginner or a
+        professional athlete, our platform helps you stay consistent and
+        motivated.
+      </p>
+
+      <h2>Why Choose Us?</h2>
+      <p>
+        Our fitness tracking system is designed to keep you accountable and
+        motivated with features like:
+      </p>
+      <ul>
+        <li>✔️ Log and view your daily workouts</li>
+        <li>✔️ Track progress over time</li>
+        <li>✔️ Personalized workout plans</li>
+        <li>✔️ Stay motivated with stats and milestones</li>
+      </ul>
+
+      <h2>🚀 Get Started</h2>
+      <p>Try our API endpoints and start exploring:</p>
+      <ul>
+        <li><a href="/api/workouts">View Workouts</a></li>
+      </ul>
+
+      <footer>
+        💡 Remember: Consistency beats intensity. Start small, stay regular, and
+        ACE your fitness journey with us!
+      </footer>
+    </div>
+  </body>
+</html>
